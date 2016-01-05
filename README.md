@@ -22,3 +22,7 @@ Presentation happens often. Especially, Presentation in contest is much more imp
 
 ### References
  * [pygame](http://www.pygame.org/hifi.html "pygame")
+
+
+## 부과설명(for D2 fest)
+ * 파이썬의 파이게임을 이용하여 화면을 출력하는 함수들을 만든 뒤 JAVA를 이용하여 유저가 프레젠테이션을 만들 수 있는 UI를 제작할 계획이다.
