@@ -1,0 +1,24 @@
+import pygame
+
+pygame.init()
+programFlag = True
+
+src_width=800
+src_height=480
+src_caption='Presentroid-AI'
+src_size=(src_width, sic_height)
+
+mainDisplay = pygame.display.set_mode(src_size)
+pygame.display.set_cpation(src_caption)
+clock = pygame.time.Clock()
+
+
+while programFlag:
+
+	mainDisplay.fill(color.WHITE)
+	testField.drawTextField(mainDisplay, src_width, src_height)
+
+	pygame.display.update()
+	clock.tick(30)
+
+pygame.quit()
