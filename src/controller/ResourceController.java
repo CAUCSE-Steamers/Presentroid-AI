@@ -11,6 +11,8 @@ public class ResourceController {
     @FXML
     private TableView<Data> dataTable;
     @FXML
+    private TableColumn<Data, String> nameColumn;
+    @FXML
     private Label nameLabel;
     @FXML
     private Label directoryLabel;
@@ -18,10 +20,16 @@ public class ResourceController {
     private Label xLabel;
     @FXML
     private Label yLabel;
+    @FXML
+    private Label script;
 
     public ResourceController(){
 
     }
 
+    @FXML
+    private void initialize(){
+        nameColumn.setCellValueFactory(cellData->cellData.getValue().getNameProperty());
+    }
 
 }
