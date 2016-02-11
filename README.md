@@ -12,7 +12,7 @@ Presentation happens often. Especially, Presentation in contest is much more imp
 ### References
  * [pygame](http://www.pygame.org/hifi.html "pygame")
 
- ## Korean
+## Korean
 ### 특징
  * 자동 프레젠테이션 시스템
  * 오토마타를 이용한 프레젠테이션 구조 제공
